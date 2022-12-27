@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## IONIC ANGULAR CAPACITOR
+https://ionicframework.com/docs/components
+https://capacitorjs.com/docs/plugins
+
+## INTEGRAR IONIC EN PROYECTO ANGULAR
+ng new app_name
+ng add @ionic/angular
+ng add @angular/material
+
+## EXPORTAR PROYECTO A ANDROID/IOS
+ng add @capacitor/angular
+npm i @capacitor/android
+npx cap add android
+ng build
+npx cap sync
+npx cap open android
+
+## GENERAR PAGES
+ng g c pages/home --style=none --skip-tests 
